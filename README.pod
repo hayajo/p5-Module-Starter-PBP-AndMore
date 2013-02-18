@@ -1,0 +1,44 @@
+=head1 NAME
+
+Module::Starter::PBP::AndMore - Create a module using Module::Starter::PBP with more templates.
+
+=head1 SYNOPSIS
+
+Set up as well as the L<Module::Starter::PBP/"SYNOPSYS">.
+
+Then add some template files in template_dir.
+
+  # e.g. - added template '.shipit'
+  % cd <template_dir>
+  % echo "steps = FindVersion, ChangeVersion, CheckChangeLog, DistTest, Commit, Tag, MakeDist, UploadCPAN" > .shipit
+
+Then execute "module-starter" on the command-line as usual ...
+
+  % module-starter --module=Your::New::Module
+
+=head1 DESCRIPTION
+
+Module::Starter::PBP::AndMore adds a simple template to L<Module::Starter::PBP>.
+
+=head1 Template format
+
+The template files are supported placeholders similar to L<Module::Starter::PBP/"Template-format">.
+
+see L<Module::Starter::PBP/"Template-format">.
+
+=head1 AUTHOR
+
+hayajo E<lt>hayajo@cpan.orgE<gt>
+
+=head1 SEE ALSO
+
+L<Module::Starter::PBP>
+
+=head1 LICENSE
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+
+=cut
+
