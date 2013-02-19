@@ -114,6 +114,20 @@ Then execute "module-starter" on the command-line as usual ...
 
 Module::Starter::PBP::AndMore adds a simple template to L<Module::Starter::PBP>.
 
+=head1 METHODS
+
+=head2 create_modules
+
+This method create a starter module file for each module named in @modules.
+
+Then reads in the template files and directories, populates them. The module template directory is found by checking the config option "template_dir".
+
+=head2 create_ignores
+
+This creates a text file for use as MANIFEST.SKIP, .cvsignore, .gitignore, or whatever you use.
+
+Already declared ignore files in "template_dir", they are populated.
+
 =head1 Template format
 
 The template files are supported placeholders similar to L<Module::Starter::PBP/"Template-format">.
