@@ -36,9 +36,9 @@ Already declared ignore files in "template_dir", they are populated.
 
 =head1 Template format
 
-The template files are supported placeholders similar to L<Module::Starter::PBP/"Template-format">.
+The template files are supported placeholders similar to L<Module::Starter::PBP/"Template_format">.
 
-see L<Module::Starter::PBP/"Template-format">.
+see L<Module::Starter::PBP/"Template_format">.
 
 =head1 AUTHOR
 
